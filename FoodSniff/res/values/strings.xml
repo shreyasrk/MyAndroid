@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="welcome">Welcome to FoodSniff</string>
+    <string name="app_name">FoodSniff</string>
+    
+    <string name="FoodType">Choose the type of Cuisine</string>
+    <string-array name="foodType_array">
+        <item>All</item>
+        <item>American</item>
+        <item>Arabic</item>
+        <item>Cajun</item>
+        <item>Chinese</item>
+        <item>French</item>
+        <item>Greek</item>
+        <item>Indian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Malay</item>
+        <item>Mexican</item>
+        <item>Mongolian</item>
+        <item>Thai</item>
+        <item>Turkish</item>
+    </string-array>
+    
+    <string name="RestType">Choose Restaurant Style</string>
+    <string-array name="restType_array">
+		<item>Restaurant</item>
+        <item>Bakery</item>
+        <item>Bar</item>
+        <item>Cafe</item>
+        <item>Food</item>
+        <item>Meal Delivery</item>
+        <item>Meal Takeaway</item>
+    </string-array>
+    
+    <string name="TransportType">Choose Mode of Transport</string>
+    <string-array name="transType_array">
+        <item>By Walk</item>
+        <item>By Biking/Cycling</item>
+        <item>Via Drive/Car</item>
+    </string-array>
+    
+    <string name="Distance">Approx. Distance from present location(in kms))</string>
+    <string name="SearchButtonName">Search for Food!</string>
+    <string name="ClearButtonName">Clear</string>
+    <string name="googleimage"></string>
+    
+    
+    <string name="options_menu">Options</string>
+    <string name="credits">Credits</string>
+    <string name="Search_new">New Search</string>
+    <string name="gotoMaps">Go to Maps</string>
+    <string name="Settings">Settings</string>
+
+</resources>

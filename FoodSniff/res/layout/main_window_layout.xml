@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <Button
+        android:id="@+id/SearchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="86dp"
+        android:layout_marginLeft="63dp"
+        android:text="@string/SearchButtonName" />
+
+    <EditText
+        android:id="@+id/DistanceSelect"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/SearchButton"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:id="@+id/Distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/SearchButton"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/DistanceSelect"
+        android:text="@string/Distance" />
+
+    <Spinner
+        android:id="@+id/TransTypeSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Distance"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:prompt="@string/TransportType" />
+
+    <TextView
+        android:id="@+id/TransportType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TransTypeSpinner"
+        android:layout_alignParentLeft="true"
+        android:text="@string/TransportType" />
+
+    <Spinner
+        android:id="@+id/RestTypeSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TransportType"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="22dp"
+        android:prompt="@string/RestType" />
+
+    <TextView
+        android:id="@+id/RestType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/RestTypeSpinner"
+        android:layout_alignParentLeft="true"
+        android:text="@string/RestType" />
+
+    <Spinner
+        android:id="@+id/FoodTypeSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/RestType"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="22dp"
+        android:prompt="@string/FoodType" />
+
+    <TextView
+        android:id="@+id/FoodType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/FoodTypeSpinner"
+        android:layout_alignParentLeft="true"
+        android:text="@string/FoodType" />
+
+    <Button
+        android:id="@+id/ClearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/SearchButton"
+        android:layout_alignBottom="@+id/SearchButton"
+        android:layout_toRightOf="@+id/SearchButton"
+        android:text="@string/ClearButtonName" />
+
+    <ImageView
+        android:id="@+id/imageGoogle"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/google"
+        android:contentDescription="@string/googleimage" />
+
+</RelativeLayout>
