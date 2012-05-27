@@ -5,4 +5,4 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:clickable="true"
-    android:apiKey="0f07YTiRpbEbeY3oLQISx1sKZkgvUrEG7EZXJlg"/>
+    android:apiKey="<yourAndroidMapsAPIKey>"/>
