@@ -34,13 +34,7 @@ public class MapCallActivity extends MapActivity {
 	 * https://developers.google.com/maps/documentation/javascript/tutorial#api_key) 
 	 * NOTE: This is different from the one generated using keytool!
 	 * */
-	private static final String API_KEY = "AIzaSyBTqoGpg-SDm2wVd1Tl98UpfcqbrmXEQfM";
-	/**
-	 * Debug Maps API Key: 0f07YTiRpbEbeY3oLQISx1sKZkgvUrEG7EZXJlg Release Maps
-	 * API Key: 
-	 * 1.0f07YTiRpbEZL4fL8zciwHyDwp4TGQfWfHHuiug -- shreyas-key
-	 * 2.0f07YTiRpbEaAzBkVeTjXXuTV46v973kG-ucFSA -- release
-	 * */
+	private static final String API_KEY = "<yourGoogleCodeAPIKey>";
 	MapView mapView;
 	/*
 	 * String defaultLoc[] = { "1.296705", "103.773336" }; //String defaultLoc[]
