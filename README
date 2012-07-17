@@ -1,0 +1,18 @@
+The repository for developed apps in Android Mobile framework.
+
+The list grows. As everything related to Android development would be shared in this single repository.
+Apps developed:
+1. Food Sniff: A location based service in Android which detects the nearby food locations within a confined radius of search.
+      Tools used:
+      a. Google APIs: 
+        a.1: Google Places: For radius tracker service.
+        a.2: Google Directions: For determining directions/routes from the user's current location to the tapped destination of interest.
+      b. JSON: Native JSON is used and parsed. Google's GSON is not used.
+      c. Core Java and Android's rich content of mobile software libraries.
+
+2. PhoneBook: Simple native mobile app that stores user's contact details such as Name and Phone Numbers.
+      Tools used:
+      a. Java and Android 2.3.3 with Eclipse ADT Plugin.
+      b. SQLite Database as a ContentProvider.
+
+Upgrades and enhancements would be done as per need basis. Stay tuned!
